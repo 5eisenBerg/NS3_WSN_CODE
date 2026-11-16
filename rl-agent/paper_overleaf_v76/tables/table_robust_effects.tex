@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{Robust run-level comparison (DQN vs. Strict Priority) using medians and Cliff's $\delta$.}
+\label{tab:robust_effects}
+\scriptsize
+\begin{tabular}{lcccc}
+\toprule
+Metric & DQN median & Strict median & Median difference & Cliff's $\delta$ \\
+\midrule
+Throughput (kbps) & 7.0352 & 7.9152 & -0.8800 & -1.0000 \\
+PDR (\%) & 50.3264 & 56.8052 & -6.4788 & -1.0000 \\
+PLR (\%) & 40.1360 & 34.4895 & -5.6465 & 0.9950 \\
+Avg. normal delay (s) & 0.4088 & 0.6036 & 0.1948 & -0.9550 \\
+Avg. HP delay (s) & 0.1434 & 0.0283 & -0.1151 & 1.0000 \\
+Energy (nJ/bit) & 444.0605 & 419.1185 & -24.9420 & 0.3950 \\
+HP delivery ratio (\%) & 95.9030 & 98.3209 & -2.4179 & -1.0000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

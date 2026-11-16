@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\caption{Queue occupancy summary from time-series logs (packets).}
+\label{tab:queue_summary}
+\scriptsize
+\begin{tabular}{lcccc}
+\toprule
+Policy & Mean HP queue & HP queue p95 & Mean normal queue & Normal queue p95 \\
+\midrule
+Policy-Guided DQN & 1.03 & 3.00 & 9.17 & 21.00 \\
+Strict Priority & 0.54 & 2.00 & 9.18 & 19.00 \\
+Random & 2.15 & 6.00 & 11.14 & 23.00 \\
+\bottomrule
+\end{tabular}
+\end{table*}

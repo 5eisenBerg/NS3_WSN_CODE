@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Final performance over 20 evaluation runs (mean $\pm$ 95\% CI). Higher is better for throughput, PDR, and HP delivery ratio; lower is better for PLR, delays, and energy.}
+\label{tab:main_results}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+Policy & Throughput (kbps) & PDR (\%) & PLR (\%) & Avg. Normal Delay (s) & Avg. HP Delay (s) & Energy (nJ/bit) & HP Delivery Ratio (\%) \\
+\midrule
+Policy-Guided DQN & 7.0267 $\pm$ 0.0702 & 50.3291 $\pm$ 0.6022 & 40.3309 $\pm$ 0.8373 & 0.4287 $\pm$ 0.0261 & 0.1431 $\pm$ 0.0026 & 443.8708 $\pm$ 16.9422 & 95.7779 $\pm$ 0.2916 \\
+Strict Priority & 7.9104 $\pm$ 0.0054 & 56.6625 $\pm$ 0.3137 & 34.7224 $\pm$ 0.5326 & 0.6171 $\pm$ 0.0384 & 0.0274 $\pm$ 0.0015 & 417.0370 $\pm$ 17.2341 & 98.3374 $\pm$ 0.1941 \\
+Random & 2.8000 $\pm$ 0.0350 & 20.0709 $\pm$ 0.3314 & 71.4943 $\pm$ 0.5450 & 0.8545 $\pm$ 0.0597 & 0.3521 $\pm$ 0.0129 & 806.7023 $\pm$ 22.7489 & 34.4862 $\pm$ 0.8563 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

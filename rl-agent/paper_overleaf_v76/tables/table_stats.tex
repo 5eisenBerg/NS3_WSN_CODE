@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Paired run-level statistical comparison (n=20 matched runs): Policy-Guided DQN vs. Strict Priority.}
+\label{tab:stats}
+\scriptsize
+\begin{tabular}{lccc}
+\toprule
+Metric & Test & p-value & Paired Cohen's $d_z$ \\
+\midrule
+Throughput (kbps) & Paired t-test & $2.656\times10^{-16}$ & $-5.8046$ \\
+PDR (\%) & Paired t-test & $1.655\times10^{-15}$ & $-5.2568$ \\
+PLR (\%) & Paired t-test & $4.749\times10^{-13}$ & $3.8504$ \\
+Avg. Normal Delay (s) & Wilcoxon signed-rank & $1.907\times10^{-6}$ & $-3.3284$ \\
+Avg. HP Delay (s) & Paired t-test & $3.038\times10^{-26}$ & $19.6001$ \\
+Energy (nJ/bit) & Paired t-test & $1.687\times10^{-14}$ & $4.6310$ \\
+HP Delivery Ratio (\%) & Paired t-test & $2.176\times10^{-11}$ & $-3.1005$ \\
+\bottomrule
+\end{tabular}
+\end{table}

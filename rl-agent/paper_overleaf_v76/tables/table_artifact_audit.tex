@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\caption{Artifact consistency audit using run-level records in raw\_results\_v76.csv.}
+\label{tab:artifact_audit}
+\scriptsize
+\begin{tabular}{lcccc}
+\toprule
+Policy & Run records & Unique run IDs & Throughput mean $\pm$ CI & HP delivery mean $\pm$ CI \\
+\midrule
+Policy-Guided DQN & 20 & 20 (1--20) & 7.0267 $\pm$ 0.0702 & 95.7779 $\pm$ 0.2916 \\
+Strict Priority & 20 & 20 (1--20) & 7.9104 $\pm$ 0.0054 & 98.3374 $\pm$ 0.1941 \\
+Random & 20 & 20 (1--20) & 2.8000 $\pm$ 0.0350 & 34.4862 $\pm$ 0.8563 \\
+\bottomrule
+\end{tabular}
+\end{table*}

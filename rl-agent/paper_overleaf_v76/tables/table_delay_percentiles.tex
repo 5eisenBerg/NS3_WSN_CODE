@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\caption{Delay distribution summary from per-packet delay logs (seconds).}
+\label{tab:delay_percentiles}
+\scriptsize
+\begin{tabular}{lcccccc}
+\toprule
+Policy & HP median & HP p90 & HP p95 & Normal median & Normal p90 & Normal p95 \\
+\midrule
+Policy-Guided DQN & 0.1000 & 0.2000 & 0.2000 & 0.4000 & 0.8000 & 1.0000 \\
+Strict Priority & 0.0000 & 0.1000 & 0.1000 & 0.5000 & 1.1000 & 1.3000 \\
+Random & 0.2000 & 0.8000 & 1.0000 & 0.7000 & 1.4000 & 1.6900 \\
+\bottomrule
+\end{tabular}
+\end{table*}
