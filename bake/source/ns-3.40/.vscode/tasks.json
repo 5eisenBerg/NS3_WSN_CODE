@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "ns3 build",
+            "type": "shell",
+            "command": "./ns3 build",
+            "options": { "cwd": "${workspaceFolder}" },
+            "group": { "kind": "build", "isDefault": true }
+        },
+        {
+            "label": "run hello",
+            "type": "shell",
+            "command": "./ns3 run hello-simulator",
+            "options": { "cwd": "${workspaceFolder}" }
+        },
+        {
+            "label": "run linear mesh",
+            "type": "shell",
+            "command": "./ns3 run scratch/linear_mesh",
+            "options": { "cwd": "${workspaceFolder}" }
+        }
+    ]
+}

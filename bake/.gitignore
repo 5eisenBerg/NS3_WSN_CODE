@@ -1,8 +1,13 @@
 *~
-^examples/.*/source/.*
+# Keep the NS-3 source tree visible in the repo
+source/*
+!source/ns-3.40/
+!source/ns-3.40/**
+!source/tmpg1gmxlfm/
+!source/tmpg1gmxlfm/**
+
 bakefile.xml
 /bake/*.pyc
-source/*
 build/*
 contrib/*
 ^bakeSetEnv.sh

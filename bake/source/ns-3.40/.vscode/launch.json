@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run ns3 Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/scratch/ns3.40-scratch-simulator-default",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb"
+        }
+    ]
+}
